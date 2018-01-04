@@ -1,0 +1,20 @@
+<div class="card mt-3" ng-init="getBooks()">
+	<div class="card-header">
+        <h3 class="card-title">Latest Books</h3>
+    </div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-4 mb-3" ng-repeat="book in books">
+				<div class="row">
+					<div class="col-md-6">
+						<h5 class="text-capitalize text-truncate">{{book.title}}</h5>
+						<a class="btn btn-outline-info" href="#!/books/details/{{book._id}}">View Details</a>
+					</div>
+					<div class="col-md-6">
+						<img class="img-thumbnail" src="{{book.image_url}}" title="{{book.title}}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
