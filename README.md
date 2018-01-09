@@ -17,6 +17,8 @@ A simple BookStore using Restfull service
 
 ## Usage
 
+###Genre
+
 Index | HTTP Method | Endpoint
 ----------|----------|----------
 1 | GET | /api/genres
@@ -25,6 +27,7 @@ Index | HTTP Method | Endpoint
 4 | PUT | /api/genres/{{genres_id}}
 5 | DELETE | /api/genres/{{genres_id}}
 
+###Book
 
 Index | HTTP Method | Endpoint
 ----------|----------|----------
