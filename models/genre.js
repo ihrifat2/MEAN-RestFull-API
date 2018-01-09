@@ -19,6 +19,11 @@ module.exports.getGenres = function(callback, limit) {
 	Genre.find(callback).limit(limit);
 }
 
+// Get Single Genres
+module.exports.getGenresById = function(id, callback) {
+	Genre.findById(id, callback);
+}
+
 // Add Genres
 module.exports.addGenres = function(genre, callback) {
 	Genre.create(genre, callback);
