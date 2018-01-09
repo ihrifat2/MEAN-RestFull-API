@@ -19,7 +19,7 @@ A simple BookStore using Restfull service
 
 ### Genre
 
-Index | HTTP Method | Endpoint
+Index | HTTP Method | API Endpoint
 ----------|----------|----------
 1 | GET | /api/genres
 2 | GET | /api/genres/{{genres_id}}
@@ -29,7 +29,7 @@ Index | HTTP Method | Endpoint
 
 ### Book
 
-Index | HTTP Method | Endpoint
+Index | HTTP Method | API Endpoint
 ----------|----------|----------
 1 | GET | /api/books
 2 | GET | /api/books/{{books_id}}
